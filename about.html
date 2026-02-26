@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>О форуме — International Textile Forum Tajikistan 2026</title>
+  <link rel="icon" href="/assets/img/logo-forum-2026.jpg" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <script defer src="/assets/js/include.js"></script>
+  <script defer src="/assets/js/i18n.js"></script>
+  <script defer src="/assets/js/main.js"></script>
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main>
+    <section class="section">
+      <div class="container" style="max-width:980px">
+        <div class="kicker"><span class="dot"></span><span data-i18n="nav.about">О форуме</span></div>
+
+        <div class="card" style="padding:22px;margin-top:12px">
+          <div data-lang-block="ru">
+            <h1 style="margin:0 0 10px">О International Textile Forum Tajikistan‑2026</h1>
+            <p class="muted">
+              Форум — специализированная платформа прямого доступа к инвестиционным проектам, направленным на создание полноциклового текстильного производства в Таджикистане.
+            </p>
+            <div class="hr"></div>
+            <h3 style="margin:0 0 8px">Цели</h3>
+            <ul class="list">
+              <li>Привлечение инвестиций и стратегических партнерств.</li>
+              <li>Презентация портфеля проектов текстильных кластеров.</li>
+              <li>Продвижение устойчивости и цифровизации (Industry 4.0).</li>
+            </ul>
+          </div>
+
+          <div data-lang-block="en" class="hidden">
+            <h1 style="margin:0 0 10px">About International Textile Forum Tajikistan‑2026</h1>
+            <p class="muted">
+              The Forum is a specialized platform providing direct access to investment projects aimed at establishing full‑cycle textile production in Tajikistan.
+            </p>
+            <div class="hr"></div>
+            <h3 style="margin:0 0 8px">Objectives</h3>
+            <ul class="list">
+              <li>Attract investment and strategic partnerships.</li>
+              <li>Present an investment‑ready portfolio of cluster projects.</li>
+              <li>Accelerate sustainability and Industry 4.0 adoption.</li>
+            </ul>
+          </div>
+
+          <div data-lang-block="tj" class="hidden">
+            <h1 style="margin:0 0 10px">Дар бораи форум</h1>
+            <p class="muted">
+              Форум платформа барои муаррифии лоиҳаҳои сармоягузорӣ ҷиҳати таъсиси истеҳсоли пуррадавраи нассоҷӣ дар Тоҷикистон мебошад.
+            </p>
+            <div class="hr"></div>
+            <h3 style="margin:0 0 8px">Ҳадафҳо</h3>
+            <ul class="list">
+              <li>Ҷалби сармоягузорӣ ва шарикони стратегӣ.</li>
+              <li>Муаррифии портфели лоиҳаҳои кластерӣ.</li>
+              <li>Пешбурди устуворӣ ва Industry 4.0.</li>
+            </ul>
+          </div>
+
+          <div class="hr"></div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <a class="btn btn--primary" href="/register.php" data-i18n="nav.register">Регистрация</a>
+            <a class="btn" href="/program.html" data-i18n="nav.program">Программа</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', ()=>{
+      const lang = (typeof getLang === 'function') ? getLang() : 'ru';
+      if (typeof applyI18n === 'function') applyI18n(lang);
+    });
+  </script>
+</body>
+</html>

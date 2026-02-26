@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>404 — Страница не найдена — International Textile Forum Tajikistan 2026</title>
+  <meta name="robots" content="noindex,follow" />
+  <link rel="icon" href="/assets/img/logo-forum-2026.jpg" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <script defer src="/assets/js/include.js"></script>
+  <script defer src="/assets/js/i18n.js"></script>
+  <script defer src="/assets/js/main.js"></script>
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main>
+    <section class="section">
+      <div class="container" style="max-width:980px">
+        <div class="card" style="padding:26px">
+          <div data-lang-block="ru">
+            <h1 style="margin:0 0 10px">404 — Страница не найдена</h1>
+            <p class="muted" style="margin:0 0 16px">Возможно, ссылка устарела или страница была перемещена.</p>
+            <div style="display:flex;gap:10px;flex-wrap:wrap">
+              <a class="btn btn--primary" href="/">На главную</a>
+              <a class="btn" href="/program.html">Программа</a>
+              <a class="btn" href="/contacts.html">Контакты</a>
+            </div>
+          </div>
+
+          <div data-lang-block="en" class="hidden">
+            <h1 style="margin:0 0 10px">404 — Page not found</h1>
+            <p class="muted" style="margin:0 0 16px">The link may be outdated or the page has been moved.</p>
+            <div style="display:flex;gap:10px;flex-wrap:wrap">
+              <a class="btn btn--primary" href="/">Home</a>
+              <a class="btn" href="/program.html">Program</a>
+              <a class="btn" href="/contacts.html">Contacts</a>
+            </div>
+          </div>
+
+          <div data-lang-block="tj" class="hidden">
+            <h1 style="margin:0 0 10px">404 — Саҳифа ёфт нашуд</h1>
+            <p class="muted" style="margin:0 0 16px">Эҳтимол пайванд кӯҳна шудааст ё саҳифа ҷойиваз шудааст.</p>
+            <div style="display:flex;gap:10px;flex-wrap:wrap">
+              <a class="btn btn--primary" href="/">Асосӣ</a>
+              <a class="btn" href="/program.html">Барнома</a>
+              <a class="btn" href="/contacts.html">Тамос</a>
+            </div>
+          </div>
+
+          <div class="hr"></div>
+          <div class="muted small">
+            Email: <a href="mailto:info@textileforum.tj">info@textileforum.tj</a> ·
+            <a href="tel:+9928372218829">+992 837 221‑88‑29</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', ()=>{
+      const lang = (typeof getLang === 'function') ? getLang() : 'ru';
+      if (typeof applyI18n === 'function') applyI18n(lang);
+    });
+  </script>
+</body>
+</html>

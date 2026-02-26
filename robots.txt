@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /assets/uploads/
+Disallow: /assets/storage/
+
+Sitemap: https://textileforum.tj/sitemap.xml
