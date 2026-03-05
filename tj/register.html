@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tj">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Бақайдгирӣ · Форуми байналмилалии нассоҷии Тоҷикистон 2026</title>
+  <link rel="stylesheet" href="../assets/css/shared.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div class="topbar__info">
+      <div class="topbar__item">
+        <i class="fas fa-calendar-alt"></i>
+        <span>23 сентябри 2026</span>
+      </div>
+      <div class="topbar__item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Душанбе, Тоҷикистон · Hyatt Regency</span>
+      </div>
+    </div>
+    <div class="topbar__lang">
+      <a href="../register.html">EN</a><span>|</span>
+      <a href="../ru/register.html">RU</a><span>|</span>
+      <a href="register.html" class="active">TJ</a>
+    </div>
+  </div>
+</div>
+
+<header class="header" id="header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <div class="logo__icon">
+        <img src="../assets/img/logo/logo.avif" alt="ITF Logo">  
+      </div>
+      <div class="logo__text">
+        <span class="logo__title">Форуми <br>Байналмилалии <br> Нассоҷӣ</span>
+        <span class="logo__sub">Тоҷикистон 2026</span>
+      </div>
+    </a>
+    <nav class="nav" id="mainNav">
+      <a href="about.html" class="nav__link">Дар бораи Форум</a>
+      <a href="agenda.html" class="nav__link">Барнома</a>
+      <a href="speakers.html" class="nav__link">Мухоотибон</a>
+      <a href="sponsorship.html" class="nav__link">Ҳамсарпарастон</a>
+      <a href="media.html" class="nav__link">Медиа</a>
+      <a href="contacts.html" class="nav__link">Тамос</a>
+    </nav>
+    <a href="register.html" class="header__reg">
+      <i class="fas fa-user-plus"></i>Бақайдгирӣ
+    </a>
+    <div class="burger" id="burger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</header>
+
+<button class="side-register" onclick="window.location.href='register.html'">
+  Бақайдгирӣ
+</button>
+
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero__label">Бақайдгирӣ</div>
+      <h1 class="page-hero__title">Бақайдгирӣ ба форум</h1>
+      <p class="page-hero__desc">
+        Лутфан формаро пур кунед, то дар Форуми байналмилалии нассоҷии Тоҷикистон 2026 иштирок намоед.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:1.1fr 0.9fr;gap:48px;align-items:flex-start;max-width:1080px;margin:0 auto;">
+        <div class="reg-form" style="padding:40px;border-radius:16px;background:#fff;border:1px solid #E5E7EB;box-shadow:0 8px 40px rgba(0,0,0,0.04);">
+          <h2 class="section-heading" style="margin-bottom:24px;">Шакли бақайдгирӣ</h2>
+          <form method="POST" action="../send.php">
+            <input type="hidden" name="lang" value="tj" />
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+              <div class="form-group" style="margin-bottom:16px;">
+                <label style="display:block;font-size:12px;font-weight:600;color:#0A1628;margin-bottom:6px;">Ном *</label>
+                <input type="text" name="first_name" required
+                  style="width:100%;padding:11px 14px;border:1.5px solid #E5E7EB;border-radius:10px;font-size:13px;" />
+              </div>
+              <div class="form-group" style="margin-bottom:16px;">
+                <label style="display:block;font-size:12px;font-weight:600;color:#0A1628;margin-bottom:6px;">Насаб *</label>
+                <input type="text" name="last_name" required
+                  style="width:100%;padding:11px 14px;border:1.5px solid #E5E7EB;border-radius:10px;font-size:13px;" />
+              </div>
+            </div>
+
+            <div class="form-group" style="margin-bottom:16px;">
+              <label style="display:block;font-size:12px;font-weight:600;color:#0A1628;margin-bottom:6px;">E-mail *</label>
+              <input type="email" name="email" required
+                style="width:100%;padding:11px 14px;border:1.5px solid #E5E7EB;border-radius:10px;font-size:13px;" />
+            </div>
+
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+              <div class="form-group" style="margin-bottom:16px;">
+                <label style="display:block;font-size:12px;font-weight:600;color:#0A1628;margin-bottom:6px;">Телефон</label>
+                <input type="tel" name="phone"
+                  style="width:100%;padding:11px 14px;border:1.5px solid #E5E7EB;border-radius:10px;font-size:13px;" />
+              </div>
+              <div class="form-group" style="margin-bottom:16px;">
+                <label style="display:block;font-size:12px;font-weight:600;color:#0A1628;margin-bottom:6px;">Кишвар *</label>
+                <input type="text" name="country" required
+                  style="width:100%;padding:11px 14px;border:1.5px solid #E5E7EB;border-radius:10px;font-size:13px;" />
+              </div>
+            </div>
+
+            <div class="form-group" style="margin-bottom:16px;">
+              <label style="display:block;font-size:12px;font-weight:600;color:#0A1628;margin-bottom:6px;">Созмон *</label>
+              <input type="text" name="organization" required
+                style="width:100%;padding:11px 14px;border:1.5px solid #E5E7EB;border-radius:10px;font-size:13px;" />
+            </div>
+
+            <div class="form-group" style="margin-bottom:20px;">
+              <label style="display:block;font-size:12px;font-weight:600;color:#0A1628;margin-bottom:6px;">Намуди иштирок</label>
+              <select name="participation_type"
+                style="width:100%;padding:11px 14px;border:1.5px solid #E5E7EB;border-radius:10px;font-size:13px;">
+                <option value="delegate">Делегат</option>
+                <option value="speaker">Мухоотиб</option>
+                <option value="sponsor">Ҳамсарпараст / Шарик</option>
+                <option value="media">Медиа</option>
+                <option value="other">Дигар</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center;">
+              <i class="fas fa-arrow-right"></i> Фиристодани дархост
+            </button>
+          </form>
+        </div>
+
+        <div style="padding:32px 26px;border-radius:16px;background:#0A1628;color:var(--text-white);">
+          <h3 style="font-size:20px;font-weight:700;margin-bottom:18px;">Бартариҳои иштирок</h3>
+          <ul style="font-size:14px;line-height:1.7;color:var(--text-muted);">
+            <li style="margin-bottom:10px;">
+              <i class="fas fa-globe" style="color:var(--accent-light);margin-right:6px;"></i>
+              Ҳузури намояндагони 40+ кишвар ва брендҳои байналмилалӣ.
+            </li>
+            <li style="margin-bottom:10px;">
+              <i class="fas fa-handshake" style="color:var(--accent-light);margin-right:6px;"></i>
+              Дастрасӣ ба лоиҳаҳои пурра бо ТЭО‑ҳои омода.
+            </li>
+            <li style="margin-bottom:10px;">
+              <i class="fas fa-microchip" style="color:var(--accent-light);margin-right:6px;"></i>
+              Иштироки истеҳсолкунандагони пешқадами таҷҳизот.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <a href="index.html" class="logo">
+        <div class="logo__icon">
+          <img src="../assets/img/logo/logo.avif" alt="ITF Logo">
+        </div>
+        <div class="logo__text">
+        <span class="logo__title">Форуми <br>Байналмилалии <br> Нассоҷӣ</span>
+          <span class="logo__sub">Тоҷикистон 2026</span>
+        </div>
+      </a>
+      <nav class="footer__nav">
+        <a href="about.html">Дар бораи Форум</a>
+        <a href="agenda.html">Барнома</a>
+        <a href="speakers.html">Мухоотибон</a>
+        <a href="sponsorship.html">Ҳамсарпарастон</a>
+        <a href="media.html">Медиа</a>
+        <a href="contacts.html">Тамос</a>
+        <a href="privacy.html">Махфият</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__copy">
+        © 2025 Форуми Байналмилалии Нассоҷӣ, Тоҷикистон. Ҳамаи ҳуқуқҳо ҳифз шудаанд.
+      </div>
+      <div class="footer__socials">
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="../assets/js/shared.js"></script>
+</body>
+</html>

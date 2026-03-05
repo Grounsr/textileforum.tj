@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Агенда · Международный текстильный форум Таджикистан 2026</title>
+  <author><S class="A"></S></author>
+  <link rel="stylesheet" href="../assets/css/shared.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    .timeline { max-width: 900px; margin: 0 auto; }
+    .t-block { margin-bottom: 10px; border-radius: 12px; overflow: hidden; border: 1px solid #E5E7EB; background: #fff; }
+    .t-header { display: flex; align-items: center; gap: 20px; padding: 18px 22px; cursor: pointer; }
+    .t-time { min-width: 120px; font-size: 14px; font-weight: 700; color: #A88A3A; }
+    .t-info { flex: 1; }
+    .t-title { font-size: 15px; font-weight: 700; color: #0A1628; margin-bottom: 2px; }
+    .t-subtitle { font-size: 13px; color: #6B7280; }
+    .t-badge { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; padding: 4px 10px; border-radius: 50px; background: rgba(200,168,78,0.12); color: #A88A3A; }
+    .t-chevron { font-size: 10px; color: #C8A84E; margin-left: 12px; transition: transform 0.3s; }
+    .t-body { max-height: 0; overflow: hidden; transition: max-height 0.4s var(--ease); }
+    .t-body__inner { padding: 0 22px 16px 142px; font-size: 13px; color: #4B5563; }
+    .t-body__inner ul { padding-left: 0; }
+    .t-body__inner li { margin-bottom: 4px; line-height: 1.7; padding-left: 14px; position: relative; }
+    .t-body__inner li::before { content: ''; position: absolute; left: 0; top: 8px; width: 6px; height: 6px; border-radius: 999px; background: #C8A84E; }
+    .t-org { font-size: 12px; font-weight: 600; color: #A88A3A; margin-bottom: 8px; }
+    .t-block.open .t-chevron { transform: rotate(180deg); }
+    .t-block--break { background: #F9FAFB; }
+    @media (max-width: 768px) {
+      .t-body__inner { padding-left: 22px; }
+      .t-time { min-width: 90px; font-size: 12px; }
+      .t-badge { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div class="topbar__info">
+      <div class="topbar__item">
+        <i class="fas fa-calendar-alt"></i>
+        <span>23 сентября 2026</span>
+      </div>
+      <div class="topbar__item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Душанбе, Таджикистан · Hyatt Regency</span>
+      </div>
+    </div>
+    <div class="topbar__lang">
+      <a href="../agenda.html">EN</a><span>|</span>
+      <a href="agenda.html" class="active">RU</a><span>|</span>
+      <a href="../tj/agenda.html">TJ</a>
+    </div>
+  </div>
+</div>
+
+<header class="header" id="header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <div class="logo__icon">
+        <img src="../assets/img/logo/logo.avif" alt="ITF Logo">  
+      </div>
+      <div class="logo__text">
+        <span class="logo__title">Международный<br>Текстильный Форум</span>
+        <span class="logo__sub">Таджикистан-2026</span>
+      </div>
+    </a>
+    <nav class="nav" id="mainNav">
+      <a href="about.html" class="nav__link">О Форуме</a>
+      <a href="agenda.html" class="nav__link">Агенда</a>
+      <a href="speakers.html" class="nav__link">Спикеры</a>
+      <a href="sponsorship.html" class="nav__link">Спонсорство</a>
+      <a href="media.html" class="nav__link">Медиа</a>
+      <a href="contacts.html" class="nav__link">Контакты</a>
+    </nav>
+    <a href="register.html" class="header__reg">
+      <i class="fas fa-user-plus"></i>Регистрация
+    </a>
+    <div class="burger" id="burger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</header>
+
+<button class="side-register" onclick="window.location.href='register.html'">
+  Регистрация
+</button>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero__label">Программа</div>
+      <h1 class="page-hero__title">Агенда форума</h1>
+      <p class="page-hero__desc">
+        23 сентября 2026 года · Hyatt Regency Dushanbe · Один насыщенный день:
+        пленарное заседание, панельные сессии и переговоры.
+      </p>
+    </div>
+  </section>
+
+    <section class="section">
+    <div class="container">
+      <div class="timeline">
+
+        <!-- 08:00 – 09:00 -->
+        <div class="t-block t-block--break">
+          <div class="t-header">
+            <div class="t-time">08:00 – 09:00</div>
+            <div class="t-info">
+              <div class="t-title">Регистрация участников и кофе-брейк</div>
+              <div class="t-subtitle">Регистрация участников и сеттинг</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Opening -->
+        <div class="t-block">
+          <div class="t-header" onclick="this.parentElement.classList.toggle('open');let b=this.nextElementSibling;b.style.maxHeight=b.style.maxHeight?null:b.scrollHeight+'px';">
+            <div class="t-time">09:00 – 09:30</div>
+            <div class="t-info">
+              <div class="t-title">Официальное открытие форума</div>
+              <div class="t-subtitle">Приветственные выступления высокого уровня</div>
+            </div>
+            <span class="t-badge">Открытие</span>
+            <i class="fas fa-chevron-down t-chevron"></i>
+          </div>
+          <div class="t-body">
+            <div class="t-body__inner">
+              <ul>
+                <li>Приветственное слово Председателя Совета Министров Республики Таджикистан.</li>
+                <li>Выступление Министра промышленности и новых технологий Республики Таджикистан.</li>
+                <li>Выступление Президента Международной текстильной ассоциации (ITMF).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plenary -->
+        <div class="t-block">
+          <div class="t-header" onclick="this.parentElement.classList.toggle('open');let b=this.nextElementSibling;b.style.maxHeight=b.style.maxHeight?null:b.scrollHeight+'px';">
+            <div class="t-time">09:40 – 10:30</div>
+            <div class="t-info">
+              <div class="t-title">Пленарное заседание</div>
+              <div class="t-subtitle">“Из хлопка в бренд: Центрально-Азиатские текстильные изделия в глобальной экономике”</div>
+            </div>
+            <span class="t-badge">Заседания</span>
+            <i class="fas fa-chevron-down t-chevron"></i>
+          </div>
+          <div class="t-body">
+            <div class="t-body__inner">
+              <div class="t-org">Модератор: Представитель Министерства промышленности и новых технологий</div>
+              <ul>
+                <li>Глобальные тенденции текстильной отрасли: устойчивое развитие, цифровизация и круговая экономика.</li>
+                <li>Роль Таджикистана в региональных цепочках добавленной стоимости.</li>
+                <li>Стратегический взгляд на развитие легкой промышленности до 2030 года.</li>
+                <li>Панельная дискуссия с международными экспертами.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coffee -->
+        <div class="t-block t-block--break">
+          <div class="t-header">
+            <div class="t-time">10:30 – 10:50</div>
+            <div class="t-info">
+              <div class="t-title">Кофе-брейк</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 1 -->
+        <div class="t-block">
+          <div class="t-header" onclick="this.parentElement.classList.toggle('open');let b=this.nextElementSibling;b.style.maxHeight=b.style.maxHeight?null:b.scrollHeight+'px';">
+            <div class="t-time">10:50 – 12:00</div>
+            <div class="t-info">
+              <div class="t-title">Панельное заседание I</div>
+              <div class="t-subtitle">“Зеленая цепочка: устойчивое производство хлопка, трейсабилити и регулирование выбросов углерода”</div>
+            </div>
+            <span class="t-badge">GIZ</span>
+            <i class="fas fa-chevron-down t-chevron"></i>
+          </div>
+          <div class="t-body">
+            <div class="t-body__inner">
+              <div class="t-org">Организатор: GIZ</div>
+              <ul>
+                <li>Устойчивое производство хлопка: Better Cotton, органическое сертификация и их внедрение в регионе.</li>
+                <li>Трейсабилити: цифровой паспорт продукта и блокчейн-решения для текстиля.</li>
+                <li>CBAM: ЕС механизм корректировки углеродного барьера и последствия для экспортеров.</li>
+                <li>Регенеративное сельское хозяйство и технологии экономии воды.</li>
+                <li>Круговая экономика и переработка отходов в текстильном производстве.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lunch -->
+        <div class="t-block t-block--break">
+          <div class="t-header">
+            <div class="t-time">12:00 – 13:00</div>
+            <div class="t-info">
+              <div class="t-title">Сетевое обеденное время</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 2 -->
+        <div class="t-block">
+          <div class="t-header" onclick="this.parentElement.classList.toggle('open');let b=this.nextElementSibling;b.style.maxHeight=b.style.maxHeight?null:b.scrollHeight+'px';">
+            <div class="t-time">13:00 – 14:30</div>
+            <div class="t-info">
+              <div class="t-title">Панельное заседание II</div>
+              <div class="t-subtitle">“Цифровой текстильный завод: автоматизация, ИИ и Industry 4.0”</div>
+            </div>
+            <span class="t-badge">Industry 4.0</span>
+            <i class="fas fa-chevron-down t-chevron"></i>
+          </div>
+          <div class="t-body">
+            <div class="t-body__inner">
+              <div class="t-org">Участники: LMW, Uster Technologies, Bajaj, Rieter</div>
+              <ul>
+                <li>Концепция полностью автоматизированного текстильного завода: опыт внедрения и результаты (LMW).</li>
+                <li>Управление качеством на основе данных и мониторинг на основе ИИ (Uster Technologies).</li>
+                <li>Современные технологии гиннинга, сохраняющие качество волокна (Bajaj).</li>
+                <li>Волокно из переработанных и смешанных материалов: энергоэффективность и снижение затрат (Rieter).</li>
+              </ul>
+              <div class="t-org" style="margin-top:8px;">
+                Формат: 3‑4 коротких презентации от технологических партнёров с последующей панельной дискуссией и Q&A.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coffee + exhibition -->
+        <div class="t-block t-block--break">
+          <div class="t-header">
+            <div class="t-time">14:30 – 14:50</div>
+            <div class="t-info">
+              <div class="t-title">Кофе-брейк </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 3 -->
+        <div class="t-block">
+          <div class="t-header" onclick="this.parentElement.classList.toggle('open');let b=this.nextElementSibling;b.style.maxHeight=b.style.maxHeight?null:b.scrollHeight+'px';">
+            <div class="t-time">14:50 – 16:10</div>
+            <div class="t-info">
+              <div class="t-title">Панельное заседание III</div>
+              <div class="t-subtitle">“Инвестиции в модернизацию: зеленый финанс и поддержка экспорта”</div>
+            </div>
+            <span class="t-badge">ADB</span>
+            <i class="fas fa-chevron-down t-chevron"></i>
+          </div>
+          <div class="t-body">
+            <div class="t-body__inner">
+              <div class="t-org">Организатор: Азиатский банк развития (ADB)</div>
+              <ul>
+                <li>Международные финансовые инструменты для модернизации текстиля.</li>
+                <li>Зеленые займы и гранты: критерии и процесс подачи заявок.</li>
+                <li>Роль банков развития и МБР в текстильных проектах.</li>
+                <li>Экспортное финансирование, факторинг и страхование экспортных рисков.</li>
+                <li>Публично-частичные партнёрства в текстильной отрасли.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 4 -->
+        <div class="t-block">
+          <div class="t-header" onclick="this.parentElement.classList.toggle('open');let b=this.nextElementSibling;b.style.maxHeight=b.style.maxHeight?null:b.scrollHeight+'px';">
+            <div class="t-time">16:10 – 17:00</div>
+            <div class="t-info">
+              <div class="t-title">Панельное заседание IV</div>
+              <div class="t-subtitle">“Навыки будущего: двойное образование и цифровые компетенции”</div>
+            </div>
+            <span class="t-badge">Образование</span>
+            <i class="fas fa-chevron-down t-chevron"></i>
+          </div>
+          <div class="t-body">
+            <div class="t-body__inner">
+              <div class="t-org">Учреждения: университеты Пакистана, Бангладеша и Ташкентского текстильного института</div>
+              <ul>
+                <li>Компетенции современного текстильного завода: от оператора машины до инженера процесса.</li>
+                <li>Модели двойного образования и партнёрства между промышленностью и университетами.</li>
+                <li>Программы повышения квалификации и переподготовки в текстильной отрасли.</li>
+                <li>Привлечение молодёжи и продвижение женского лидерства в текстиле.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Closing session -->
+        <div class="t-block">
+          <div class="t-header" onclick="this.parentElement.classList.toggle('open');let b=this.nextElementSibling;b.style.maxHeight=b.style.maxHeight?null:b.scrollHeight+'px';">
+            <div class="t-time">17:00 – 18:45</div>
+            <div class="t-info">
+              <div class="t-title">Завершающая сессия</div>
+              <div class="t-subtitle">“Made in Tajikistan: брендинг и выход на глобальные рынки”</div>
+            </div>
+            <span class="t-badge">Завершение</span>
+            <i class="fas fa-chevron-down t-chevron"></i>
+          </div>
+          <div class="t-body">
+            <div class="t-body__inner">
+              <ul>
+                <li>Что ищут международные покупатели: устойчивое развитие, прозрачность и качество.</li>
+                <li>Позиционирование текстильных продуктов Таджикистана на глобальных рынках.</li>
+                <li>Использование B2B-платформ, маркетплейсов и цифрового маркетинга.</li>
+                <li>Сотрудничество с дизайнерами и международными брендами.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Wrap-up -->
+        <div class="t-block t-block--break">
+          <div class="t-header">
+            <div class="t-time">18:45 – 19:00</div>
+            <div class="t-info">
+              <div class="t-title">Резюме форума и заключительные замечания</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <a href="index.html" class="logo">
+        <div class="logo__icon">
+          <img src="../assets/img/logo/logo.avif" alt="ITF Logo">
+        </div>
+        <div class="logo__text">
+          <span class="logo__title">Международный <br>Текстильный Форум</span>
+          <span class="logo__sub">Таджикистан-2026</span>
+        </div>
+      </a>
+      <nav class="footer__nav">
+        <a href="about.html">О Форуме</a>
+        <a href="agenda.html">Агенда</a>
+        <a href="speakers.html">Спикеры</a>
+        <a href="sponsorship.html">Спонсорство</a>
+        <a href="media.html">Медиа</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="privacy.html">Конфиденциальность</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__copy">
+        © 2025 International Textile Forum Tajikistan. Все права защищены.
+      </div>
+      <div class="footer__socials">
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="../assets/js/shared.js"></script>
+</body>
+</html>

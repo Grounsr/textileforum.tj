@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Media · International Textile Forum Tajikistan 2026</title>
+  <link rel="stylesheet" href="assets/css/shared.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    .news-layout {
+      display: grid;
+      grid-template-columns: minmax(0,1.4fr) minmax(0,1fr);
+      gap: 32px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .news-featured {
+      border-radius: 18px;
+      overflow: hidden;
+      background: #FFFFFF;
+      border: 1px solid #E5E7EB;
+      box-shadow: 0 16px 50px rgba(15,23,42,0.06);
+      display: flex;
+      flex-direction: column;
+    }
+    .news-featured__body {
+      padding: 20px 22px 20px;
+    }
+    .news-tag {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #A88A3A;
+      margin-bottom: 6px;
+    }
+    .news-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #0A1628;
+      margin-bottom: 6px;
+    }
+    .news-meta {
+      font-size: 12px;
+      color: #6B7280;
+      margin-bottom: 10px;
+    }
+    .news-text {
+      font-size: 13px;
+      color: #4B5563;
+      line-height: 1.7;
+    }
+    .news-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .news-item {
+      padding: 14px 16px;
+      border-radius: 14px;
+      background: #FFFFFF;
+      border: 1px solid #E5E7EB;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .news-item__title {
+      font-size: 14px;
+      font-weight: 600;
+      color: #0A1628;
+    }
+    .news-item__meta {
+      font-size: 11px;
+      color: #6B7280;
+    }
+    .news-item__link {
+      font-size: 12px;
+      color: #A88A3A;
+      margin-top: 4px;
+    }
+    .news-item__link i { margin-left: 4px; font-size: 10px; }
+    .media-video {
+      margin-top: 40px;
+      max-width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .media-video__frame {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      border-radius: 18px;
+      overflow: hidden;
+      border: 1px solid #E5E7EB;
+      background: #000;
+    }
+    .media-video__frame iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      border: 0;
+    }
+    @media (max-width: 992px) {
+      .news-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div class="topbar__info">
+      <div class="topbar__item">
+        <i class="fas fa-calendar-alt"></i>
+        <span>23 September 2026</span>
+      </div>
+      <div class="topbar__item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Dushanbe, Tajikistan · Hyatt Regency</span>
+      </div>
+    </div>
+    <div class="topbar__lang">
+      <a href="media.html" class="active">EN</a><span>|</span>
+      <a href="ru/media.html">RU</a><span>|</span>
+      <a href="tj/media.html">TJ</a>
+    </div>
+  </div>
+</div>
+
+<header class="header" id="header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <div class="logo__icon">
+        <img src="assets/img/logo/logo.avif" alt="ITF Logo">  
+      </div>
+      <div class="logo__text">
+        <span class="logo__title">International<br>Textile Forum</span>
+        <span class="logo__sub">Tajikistan 2026</span>
+      </div>
+    </a>
+    <nav class="nav" id="mainNav">
+      <a href="about.html" class="nav__link">About</a>
+      <a href="agenda.html" class="nav__link">Agenda</a>
+      <a href="speakers.html" class="nav__link">Speakers</a>
+      <a href="sponsorship.html" class="nav__link">Sponsorship</a>
+      <a href="media.html" class="nav__link">Media</a>
+      <a href="contacts.html" class="nav__link">Contacts</a>
+    </nav>
+    <a href="register.html" class="header__reg">
+      <i class="fas fa-user-plus"></i>Register
+    </a>
+    <div class="burger" id="burger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</header>
+
+<button class="side-register" onclick="window.location.href='register.html'">
+  Register
+</button>
+
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero__label" style="padding-top: 20px;">Media</div>
+      <h1 class="page-hero__title" >News & updates</h1>
+      <p class="page-hero__desc">
+        Official announcements, press releases and video highlights of the International Textile Forum Tajikistan 2026.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="news-layout">
+        <!-- Featured story -->
+        <article class="news-featured">
+          <div class="img-placeholder" style="height:220px;">
+            <i class="fas fa-image"></i>
+            <span>Featured photo or cover</span>
+          </div>
+          <div class="news-featured__body">
+            <div class="news-tag">Featured</div>
+            <h2 class="news-title">Dushanbe to host International Textile Forum 2026</h2>
+            <div class="news-meta">Press release · 15 July 2026 · Dushanbe</div>
+            <p class="news-text">
+              The Ministry of Industry and New Technologies of the Republic of Tajikistan announces
+              the International Textile Forum Tajikistan–2026, a strategic platform to present full‑cycle
+              textile projects and green investment opportunities to international partners.
+            </p>
+          </div>
+        </article>
+
+        <!-- Other news -->
+        <div class="news-list">
+          <article class="news-item">
+            <div class="news-item__title">ITMF confirms participation as international co‑organiser</div>
+            <div class="news-item__meta">News · 05 July 2026</div>
+            <div class="news-item__link">
+              Read more<i class="fas fa-arrow-right"></i>
+            </div>
+          </article>
+
+          <article class="news-item">
+            <div class="news-item__title">GIZ to lead panel on sustainable cotton and traceability</div>
+            <div class="news-item__meta">News · 28 June 2026</div>
+            <div class="news-item__link">
+              Read more<i class="fas fa-arrow-right"></i>
+            </div>
+          </article>
+
+          <article class="news-item">
+            <div class="news-item__title">Textile machinery leaders LMW, Uster, Rieter, Bajaj join Forum</div>
+            <div class="news-item__meta">News · 20 June 2026</div>
+            <div class="news-item__link">
+              Read more<i class="fas fa-arrow-right"></i>
+            </div>
+          </article>
+
+          <article class="news-item">
+            <div class="news-item__title">Exhibition area to showcase full‑cycle textile clusters</div>
+            <div class="news-item__meta">News · 10 June 2026</div>
+            <div class="news-item__link">
+              Read more<i class="fas fa-arrow-right"></i>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Video block -->
+      <div class="media-video">
+        <div class="section-label">Video</div>
+        <h2 class="section-heading">Forum teaser video</h2>
+        <p class="section-text">
+          Insert an official teaser or highlight video of the Forum. The video can present Tajikistan’s
+          textile potential, Forum agenda and investment opportunities.
+        </p>
+        <div class="media-video__frame">
+          <!-- Замените src на реальный YouTube/видеохостинг URL -->
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <a href="index.html" class="logo">
+        <div class="logo__icon">
+          <img src="assets/img/logo/logo.avif" alt="ITF Logo">
+        </div>
+        <div class="logo__text">
+          <span class="logo__title">International <br>Textile Forum</span>
+          <span class="logo__sub">Tajikistan 2026</span>
+        </div>
+      </a>
+      <nav class="footer__nav">
+        <a href="about.html">About</a>
+        <a href="agenda.html">Agenda</a>
+        <a href="speakers.html">Speakers</a>
+        <a href="sponsorship.html">Sponsorship</a>
+        <a href="media.html">Media</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__copy">
+        © 2025 International Textile Forum Tajikistan. All rights reserved.
+      </div>
+      <div class="footer__socials">
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="assets/js/shared.js"></script>
+</body>
+</html>

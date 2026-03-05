@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacts · International Textile Forum Tajikistan 2026</title>
+  <link rel="stylesheet" href="assets/css/shared.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    .contacts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: flex-start;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .ct-card {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      padding: 18px 20px;
+      border-radius: 14px;
+      background: #F9FAFB;
+      border: 1px solid #E5E7EB;
+      margin-bottom: 12px;
+    }
+    .ct-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 12px;
+      background: rgba(200,168,78,0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #A88A3A;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+    .ct-label {
+      font-size: 12px;
+      color: #6B7280;
+      margin-bottom: 2px;
+    }
+    .ct-value {
+      font-size: 15px;
+      color: #0A1628;
+      font-weight: 600;
+    }
+    .ct-value a { color: inherit; }
+    .ct-value a:hover { color: #A88A3A; }
+    .contact-form .form-group {
+      margin-bottom: 16px;
+    }
+    .contact-form label {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      color: #0A1628;
+      margin-bottom: 6px;
+    }
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form select {
+      width: 100%;
+      padding: 11px 14px;
+      border-radius: 10px;
+      border: 1.5px solid #E5E7EB;
+      font-size: 13px;
+      font-family: 'Montserrat', sans-serif;
+      outline: none;
+    }
+    .contact-form textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+    .map-placeholder {
+      margin-top: 32px;
+      border-radius: 18px;
+      height: 260px;
+    }
+    @media (max-width: 992px) {
+      .contacts-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div class="topbar__info">
+      <div class="topbar__item">
+        <i class="fas fa-calendar-alt"></i>
+        <span>23 September 2026</span>
+      </div>
+      <div class="topbar__item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Dushanbe, Tajikistan · Hyatt Regency</span>
+      </div>
+    </div>
+    <div class="topbar__lang">
+      <a href="contacts.html" class="active">EN</a><span>|</span>
+      <a href="ru/contacts.html">RU</a><span>|</span>
+      <a href="tj/contacts.html">TJ</a>
+    </div>
+  </div>
+</div>
+
+<header class="header" id="header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <div class="logo__icon">
+        <img src="assets/img/logo/logo.avif" alt="ITF Logo">  
+      </div>
+      <div class="logo__text">
+        <span class="logo__title">International <br>Textile Forum</span>
+        <span class="logo__sub">Tajikistan 2026</span>
+      </div>
+    </a>
+    <nav class="nav" id="mainNav">
+      <a href="about.html" class="nav__link">About</a>
+      <a href="agenda.html" class="nav__link">Agenda</a>
+      <a href="speakers.html" class="nav__link">Speakers</a>
+      <a href="sponsorship.html" class="nav__link">Sponsorship</a>
+      <a href="media.html" class="nav__link">Media</a>
+      <a href="contacts.html" class="nav__link">Contacts</a>
+    </nav>
+    <a href="register.html" class="header__reg">
+      <i class="fas fa-user-plus"></i>Register
+    </a>
+    <div class="burger" id="burger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</header>
+
+<button class="side-register" onclick="window.location.href='register.html'">
+  Register
+</button>
+
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero__label">Contacts</div>
+      <h1 class="page-hero__title">Get in touch</h1>
+      <p class="page-hero__desc">
+        Ministry of Industry and New Technologies of the Republic of Tajikistan ·
+        International Textile Forum Secretariat.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contacts-grid">
+        <div>
+          <div class="section-label">Contact details</div>
+          <h2 class="section-heading" style="margin-bottom:18px;">Forum Secretariat</h2>
+
+          <div class="ct-card">
+            <div class="ct-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <div class="ct-label">Phone</div>
+              <div class="ct-value"><a href="tel:+9928372218829">+992 837 221‑88‑29</a></div>
+            </div>
+          </div>
+
+          <div class="ct-card">
+            <div class="ct-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <div class="ct-label">E‑mail</div>
+              <div class="ct-value"><a href="mailto:info@textileforum.tj">info@textileforum.tj</a></div>
+            </div>
+          </div>
+
+          <div class="ct-card">
+            <div class="ct-icon"><i class="fas fa-location-dot"></i></div>
+            <div>
+              <div class="ct-label">Venue</div>
+              <div class="ct-value">Hyatt Regency Dushanbe, Dushanbe, Tajikistan</div>
+            </div>
+          </div>
+
+          <div class="ct-card">
+            <div class="ct-icon"><i class="fas fa-building-columns"></i></div>
+            <div>
+              <div class="ct-label">Organizer</div>
+              <div class="ct-value">Ministry of Industry and New Technologies of Tajikistan</div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="section-label">Write to us</div>
+          <h2 class="section-heading" style="margin-bottom:18px;">Contact form</h2>
+          <form class="contact-form" method="POST" action="send.php">
+            <input type="hidden" name="lang" value="en" />
+            <div class="form-group">
+              <label>Full name</label>
+              <input type="text" name="cf_name" />
+            </div>
+            <div class="form-group">
+              <label>E‑mail</label>
+              <input type="email" name="cf_email" />
+            </div>
+            <div class="form-group">
+              <label>Organization</label>
+              <input type="text" name="cf_org" />
+            </div>
+            <div class="form-group">
+              <label>Topic</label>
+              <select name="cf_topic">
+                <option value="general">General question</option>
+                <option value="registration">Registration</option>
+                <option value="sponsorship">Sponsorship / partnership</option>
+                <option value="media">Media accreditation</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea name="cf_message"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center;">
+              <i class="fas fa-paper-plane"></i> Send message
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="map-placeholder img-placeholder">
+        <i class="fas fa-map-location-dot"></i>
+        <span>Place Google Maps or Yandex Maps iframe here</span>
+      </div>
+    </div>
+  </section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <a href="index.html" class="logo">
+        <div class="logo__icon">
+          <img src="assets/img/logo/logo.avif" alt="ITF Logo">
+        </div>
+        <div class="logo__text">
+          <span class="logo__title">International <br> Textile Forum</span>
+          <span class="logo__sub">Tajikistan 2026</span>
+        </div>
+      </a>
+      <nav class="footer__nav">
+        <a href="about.html">About</a>
+        <a href="agenda.html">Agenda</a>
+        <a href="speakers.html">Speakers</a>
+        <a href="sponsorship.html">Sponsorship</a>
+        <a href="media.html">Media</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__copy">
+        © 2025 International Textile Forum Tajikistan. All rights reserved.
+      </div>
+      <div class="footer__socials">
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="assets/js/shared.js"></script>
+</body>
+</html>

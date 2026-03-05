@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="tj">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Мухоотибон · Форуми байналмилалии нассоҷии Тоҷикистон 2026</title>
+  <link rel="stylesheet" href="../assets/css/shared.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    .speakers-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 28px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .spk-card {
+      border-radius: 18px;
+      overflow: hidden;
+      background: #FFFFFF;
+      border: 1px solid #E5E7EB;
+      box-shadow: 0 10px 35px rgba(15,23,42,0.06);
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    .spk-photo {
+      height: 230px;
+    }
+    .spk-body {
+      padding: 18px 20px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .spk-name {
+      font-size: 15px;
+      font-weight: 700;
+      color: #0A1628;
+    }
+    .spk-role {
+      font-size: 13px;
+      color: #4B5563;
+      line-height: 1.5;
+    }
+    .spk-tag {
+      margin-top: 6px;
+      align-self: flex-start;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(200,168,78,0.12);
+      color: #A88A3A;
+      font-weight: 600;
+    }
+    @media (max-width: 992px) {
+      .speakers-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    @media (max-width: 640px) {
+      .speakers-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div class="topbar__info">
+      <div class="topbar__item">
+        <i class="fas fa-calendar-alt"></i>
+        <span>23 сентябри 2026</span>
+      </div>
+      <div class="topbar__item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Душанбе, Тоҷикистон · Hyatt Regency</span>
+      </div>
+    </div>
+    <div class="topbar__lang">
+      <a href="../speakers.html">EN</a><span>|</span>
+      <a href="../ru/speakers.html">RU</a><span>|</span>
+      <a href="speakers.html" class="active">TJ</a>
+    </div>
+  </div>
+</div>
+
+<header class="header" id="header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <div class="logo__icon">
+        <img src="../assets/img/logo/logo.avif" alt="ITF Logo">  
+      </div>
+      <div class="logo__text">
+        <span class="logo__title">Форуми <br>Байналмилалии <br> Нассоҷӣ</span>
+        <span class="logo__sub">Тоҷикистон 2026</span>
+      </div>
+    </a>
+    <nav class="nav" id="mainNav">
+      <a href="about.html" class="nav__link">Дар бораи Форум</a>
+      <a href="agenda.html" class="nav__link">Барнома</a>
+      <a href="speakers.html" class="nav__link">Сухангӯён</a>
+      <a href="sponsorship.html" class="nav__link">Ҳамсарпарастон</a>
+      <a href="media.html" class="nav__link">Медиа</a>
+      <a href="contacts.html" class="nav__link">Тамос</a>
+    </nav>
+    <a href="register.html" class="header__reg">
+      <i class="fas fa-user-plus"></i>Бақайдгирӣ
+    </a>
+    <div class="burger" id="burger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</header>
+
+<button class="side-register" onclick="window.location.href='register.html'">
+  Бақайдгирӣ
+</button>
+
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero__label">Мухоотибон</div>
+      <h1 class="page-hero__title">Спикерон ва коршиносон</h1>
+      <p class="page-hero__desc">
+        Вазирон, ташкилотҳои байналмилалӣ, шарикони рушд ва истеҳсолкунандагони пешқадами таҷҳизоти нассоҷӣ.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="speakers-grid">
+        <!-- 1 -->
+        <div class="spk-card">
+          <div class="spk-photo img-placeholder">
+            <i class="fas fa-user-tie"></i>
+            <span>Акс</span>
+          </div>
+          <div class="spk-body">
+            <div class="spk-name">[Ном Насаб]</div>
+            <div class="spk-role">Вазири саноат ва технологияҳои нави Ҷумҳурии Тоҷикистон</div>
+            <div class="spk-tag">Ифтитоҳ · Пленарӣ</div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="spk-card">
+          <div class="spk-photo img-placeholder">
+            <i class="fas fa-user-tie"></i>
+            <span>Акс</span>
+          </div>
+          <div class="spk-body">
+            <div class="spk-name">[Ном Насаб]</div>
+            <div class="spk-role">Президенти Федерашияи Иловаи Созандаҳои Парваришӣ (ITMF)</div>
+            <div class="spk-tag">Ифтитоҳ · Пленарӣ</div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="spk-card">
+          <div class="spk-photo img-placeholder">
+            <i class="fas fa-user-tie"></i>
+            <span>Акс</span>
+          </div>
+          <div class="spk-body">
+            <div class="spk-name">[Ном Насаб]</div>
+            <div class="spk-role">Намояндаи GIZ · Захиҳи тартиб додани мантиқи созандаҳо</div>
+            <div class="spk-tag">Панели I · GIZ</div>
+          </div>
+        </div>
+
+        <!-- 4 LMW -->
+        <div class="spk-card">
+          <div class="spk-photo img-placeholder">
+            <i class="fas fa-industry"></i>
+            <span>Акс</span>
+          </div>
+          <div class="spk-body">
+            <div class="spk-name">[Намояндаи LMW]</div>
+            <div class="spk-role">LMW · Автоматикунонӣ ва ҷамъияти ҳолати созандаҳо</div>
+            <div class="spk-tag">Панели II · Industry 4.0</div>
+          </div>
+        </div>
+
+        <!-- 5 Uster -->
+        <div class="spk-card">
+          <div class="spk-photo img-placeholder">
+            <i class="fas fa-microchip"></i>
+            <span>Акс</span>
+          </div>
+          <div class="spk-body">
+            <div class="spk-name">[Намояндаи Uster]</div>
+            <div class="spk-role">Uster Technologies · Идоракунии сифат ва идоракунии иттилоотӣ</div>
+            <div class="spk-tag">Панели II · Industry 4.0</div>
+          </div>
+        </div>
+
+        <!-- 6 Rieter -->
+        <div class="spk-card">
+          <div class="spk-photo img-placeholder">
+            <i class="fas fa-gears"></i>
+            <span>Акс</span>
+          </div>
+          <div class="spk-body">
+            <div class="spk-name">[Намояндаи Rieter]</div>
+            <div class="spk-role">Rieter · Ресандагии каммасрафи энергия аз нахҳои такрорӣ</div>
+            <div class="spk-tag">Панели II · Industry 4.0</div>
+          </div>
+        </div>
+
+        <!-- 7 Bajaj -->
+        <div class="spk-card">
+          <div class="spk-photo img-placeholder">
+            <i class="fas fa-seedling"></i>
+            <span>Акс</span>
+          </div>
+          <div class="spk-body">
+            <div class="spk-name">[Намояндаи Bajaj]</div>
+            <div class="spk-role">Bajaj · Технологияҳои муосири пахтатозакунӣ ва нигоҳдории нахҳо</div>
+            <div class="spk-tag">Панели II · Industry 4.0</div>
+          </div>
+        </div>
+
+        <!-- 8 ADB -->
+        <div class="spk-card">
+          <div class="spk-photo img-placeholder">
+            <i class="fas fa-landmark"></i>
+            <span>Акс</span>
+          </div>
+          <div class="spk-body">
+            <div class="spk-name">[Намояндаи БРО]</div>
+            <div class="spk-role">Бонки Рушди Осиё · Маблағгузории сабз ва дастгирии содирот</div>
+            <div class="spk-tag">Панели III · БРО</div>
+          </div>
+        </div>
+
+        <!-- 9 Education -->
+        <div class="spk-card">
+          <div class="spk-photo img-placeholder">
+            <i class="fas fa-graduation-cap"></i>
+            <span>Акс</span>
+          </div>
+          <div class="spk-body">
+            <div class="spk-name">[Намояндаи Донишгоҳ]</div>
+            <div class="spk-role">Институти Пахтатозакунӣи Ташкент / донишгоҳҳои Пакистон ва Бангладеш</div>
+            <div class="spk-tag">Панели IV · Маълумот</div>
+          </div>
+        </div>
+    
+
+      </div>
+    </div>
+  </section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <a href="index.html" class="logo">
+        <div class="logo__icon">
+          <img src="../assets/img/logo/logo.avif" alt="ITF Logo">
+        </div>
+        <div class="logo__text">
+        <span class="logo__title">Форуми <br>Байналмилалии <br> Нассоҷӣ</span>
+          <span class="logo__sub">Тоҷикистон 2026</span>
+        </div>
+      </a>
+      <nav class="footer__nav">
+        <a href="about.html">Дар бораи Форум</a>
+        <a href="agenda.html">Барнома</a>
+        <a href="speakers.html">Сухангӯён</a>
+        <a href="sponsorship.html">Ҳамсарпарастон</a>
+        <a href="media.html">Медиа</a>
+        <a href="contacts.html">Тамос</a>
+        <a href="privacy.html">Махфият</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__copy">
+        © 2025 Форуми Байналмилалии Нассоҷӣ, Тоҷикистон. Ҳамаи ҳуқуқҳо ҳифз шудаанд.
+      </div>
+      <div class="footer__socials">
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="../assets/js/shared.js"></script>
+</body>
+</html>
