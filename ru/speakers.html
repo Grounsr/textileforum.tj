@@ -6,7 +6,66 @@
   <title>Спикеры · Международный текстильный форум Таджикистан 2026</title>
   <link rel="stylesheet" href="../assets/css/shared.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <!-- тот же <style> speakers-grid, spk-card и т.п., что в EN -->
+  <style>
+    .speakers-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 28px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .spk-card {
+      border-radius: 18px;
+      overflow: hidden;
+      background: #FFFFFF;
+      border: 1px solid #E5E7EB;
+      box-shadow: 0 10px 35px rgba(15,23,42,0.06);
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    .spk-photo {
+      height: 230px;
+    }
+    .spk-body {
+      padding: 18px 20px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .spk-name {
+      font-size: 15px;
+      font-weight: 700;
+      color: #0A1628;
+    }
+    .spk-role {
+      font-size: 13px;
+      color: #4B5563;
+      line-height: 1.5;
+    }
+    .spk-tag {
+      margin-top: 6px;
+      align-self: flex-start;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(200,168,78,0.12);
+      color: #A88A3A;
+      font-weight: 600;
+    }
+    @media (max-width: 992px) {
+      .speakers-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    @media (max-width: 640px) {
+      .speakers-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
 
